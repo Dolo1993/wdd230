@@ -3,7 +3,7 @@ header  {
     height: 30%;
     background-color: rgb(46, 46, 157); 
     text-align: center; 
-    margin-top: -5px; 
+    margin-top: 5px; 
     margin-bottom: 20px;  
     border-radius: 10px; 
 }   
@@ -11,13 +11,13 @@ header  {
 .logo{ 
     display: block;
     width: 130px; 
-    margin-top: 10px; 
-    margin-left: 50px;
+    padding-top: 20px; 
+    margin-left: 20px;
 } 
 
 nav a{ 
     color: white; 
-    font-size: 2em; 
+    font-size: 1.5em; 
 }
 
 
@@ -40,13 +40,17 @@ body {
 h1 { 
 	margin-bottom: 15px; 
     color: green; 
-    border-bottom: 1px solid;
+    border-bottom: 1px solid; 
+    font-size: 30px; 
+    text-align: center;
 } 
 
-h2{
-    color: red;  
-    font-size: 20px; 
-    margin-top: 5px; 
+h2{ 
+    text-align: center;
+    color: red;    
+    font-size: 15px; 
+    margin-top: 15px;  
+    margin-bottom: 10px;
     border-top: 1px solid;
 } 
 
@@ -54,7 +58,7 @@ h2{
 footer{
     background-color: rgb(46, 46, 157);  
     width: 50%;  
-    height: 10%;
+    height: 20%;
     text-align: center; 
     margin-top: 3px;  
     
