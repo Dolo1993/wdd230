@@ -82,7 +82,8 @@ main section h2 {
 
 
 .aligment-img{
-	box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 30px #333; 
+	height: 340px;
 } 
 .aligment-img:hover{ 
     opacity: .9;
