@@ -1,7 +1,7 @@
 header  {   
 	margin: 0 auto;
 	width: 62%;
-    height: 80px; 
+    height: 100px; 
     background-color: rgb(46, 46, 157); 
     text-align: center;  
 	margin-bottom: 5px;
@@ -83,7 +83,6 @@ main section h2 {
 
 .aligment-img{
 	box-shadow: 0 0 30px #333; 
-	height: 340px;
 } 
 .aligment-img:hover{ 
     opacity: .9;
