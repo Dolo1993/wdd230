@@ -1,6 +1,6 @@
 header  {   
 	margin: 0 auto;
-	width: 62%;
+	width: 65%;
     height: 100px; 
     background-color: rgb(46, 46, 157); 
     text-align: center;  
@@ -61,7 +61,7 @@ h1{
 
 
 main section {
-	margin: 1.5rem;
+	margin: .5rem;
 	border: 1px solid #bbb; 
 	padding: 0 1rem;
 	background-color: #eee;
@@ -108,13 +108,13 @@ main section h2 {
 
 main section:nth-child(2) {
 	display: none;
-	margin: 1.5rem;
+	margin: .5rem;
 } 
 
 footer{
     background-color: rgb(46, 46, 157); 
 	margin: 0 auto;  
-    width: 62%;
+    width: 65%;
     height: 20%;
     text-align: center; 
     margin-top: 3px;  
