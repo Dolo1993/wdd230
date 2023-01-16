@@ -72,7 +72,9 @@ main section h2 {
 	text-align: center;  
 }  
 /* images section */
-.repition-img{ 
+.repition-img{  
+	width: 240px;
+	height: 450px;
 	box-shadow: 0 0 30px #333; 
 }   
 .repition-img:hover{ 
@@ -82,14 +84,18 @@ main section h2 {
 
 
 .aligment-img{ 
-	box-shadow: 0 0 30px #333; 
+	box-shadow: 0 0 30px #333;  
+	width: 240px;
+	height: 450px;
 } 
 .aligment-img:hover{ 
     opacity: .9;
     transform: scale(1.1);
 }
 
-.contrast-img{ 
+.contrast-img{  
+	width: 240px;
+	height: 450px;
 	box-shadow: 0 0 30px #333;
 	
 } 
