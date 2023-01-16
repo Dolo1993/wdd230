@@ -1,6 +1,6 @@
 header  {   
 	margin: 0 auto;
-	width: 65%;
+	width: 62%;
     height: 100px; 
     background-color: rgb(46, 46, 157); 
     text-align: center;  
@@ -61,7 +61,7 @@ h1{
 
 
 main section {
-	margin: .5rem;
+	margin: 1.5rem;
 	border: 1px solid #bbb; 
 	padding: 0 1rem;
 	background-color: #eee;
@@ -73,8 +73,7 @@ main section h2 {
 }  
 /* images section */
 .repition-img{  
-	width: 240px;
-	height: 450px;
+	height: 400px;
 	box-shadow: 0 0 30px #333; 
 }   
 .repition-img:hover{ 
@@ -83,10 +82,9 @@ main section h2 {
 }
 
 
-.aligment-img{ 
-	box-shadow: 0 0 30px #333;  
-	width: 240px;
-	height: 450px;
+.aligment-img{  
+	height: 400px;
+	box-shadow: 0 0 30px #333; 
 } 
 .aligment-img:hover{ 
     opacity: .9;
@@ -94,8 +92,7 @@ main section h2 {
 }
 
 .contrast-img{  
-	width: 240px;
-	height: 450px;
+	height: 400px;
 	box-shadow: 0 0 30px #333;
 	
 } 
@@ -108,13 +105,13 @@ main section h2 {
 
 main section:nth-child(2) {
 	display: none;
-	margin: .5rem;
+	margin: 1.5rem;
 } 
 
 footer{
     background-color: rgb(46, 46, 157); 
 	margin: 0 auto;  
-    width: 65%;
+    width: 62%;
     height: 20%;
     text-align: center; 
     margin-top: 3px;  
