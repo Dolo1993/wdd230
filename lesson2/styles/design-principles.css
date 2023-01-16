@@ -73,7 +73,7 @@ main section h2 {
 }  
 /* images section */
 .repition-img{
-	box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 30px #333; 
 }   
 .repition-img:hover{ 
     opacity: .9;
