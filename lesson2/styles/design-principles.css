@@ -72,7 +72,8 @@ main section h2 {
 	text-align: center;  
 }  
 /* images section */
-.repition-img{
+.repition-img{ 
+	height: 400px;
 	box-shadow: 0 0 30px #333; 
 }   
 .repition-img:hover{ 
@@ -81,7 +82,8 @@ main section h2 {
 }
 
 
-.aligment-img{
+.aligment-img{ 
+	height: 400px;
 	box-shadow: 0 0 30px #333; 
 } 
 .aligment-img:hover{ 
@@ -89,7 +91,8 @@ main section h2 {
     transform: scale(1.1);
 }
 
-.contrast-img{   
+.contrast-img{    
+	height: 400px;
 	box-shadow: 0 0 30px #333;
 	
 } 
