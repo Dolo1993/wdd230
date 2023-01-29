@@ -1,0 +1,150 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+/* header */
+header { 
+	background-color:#708080;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+} 
+
+/* logo portion */
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}  
+.logo p{
+	margin-left: 20px; 
+	color: white; 
+	font-size: 30px;
+} 
+
+
+/* social media portion */
+.social{
+	display: flex;
+	align-items: center;
+}
+.facebook{ 
+	margin: 4px;
+} 
+.instagram{
+	margin-right: 2rem;
+} 
+
+
+/* nav elements */
+.nav{
+	display: flex;
+	align-items: center;   
+} 
+nav a{
+	text-align: center; 
+	color: white;  
+	font-size: 20px;
+	text-decoration: none;  
+	margin-left: 30px; 
+	margin: 0.5em;
+}
+
+/* hero element */ 
+
+.home-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* three columns with equal width */
+    grid-template-rows: auto; /* rows will be determined by the content */   
+	column-gap: 3px;
+	row-gap: 1px;
+} 
+
+
+
+/* event, weather and joint */
+.event, .weather, .joint {  
+	width: 200px;  
+	height:200px;
+	background-color:#bbb;
+    grid-column: 1; /* span across the first column */  
+	margin-top: 10px;  
+	margin-left: 70px;
+	
+} 
+.event, .weather, .joint{
+	text-align: center; 
+	color: white;
+}
+
+
+/* hero and news */
+.hero {  
+	width: 800px;  
+	height:400px;
+	background-color: #bbb; 
+    grid-column: 2; /* span across the second column */ 
+	margin-top: -410px; 
+} 
+.news{ 
+	background-color: #bbb; 
+    grid-column: 2; /* span across the second column */   
+	height: 210px; 
+	margin-top: -210px; 
+
+} 
+.hero, .news{
+	text-align: center; 
+	color: white;  
+} 
+
+
+
+/* spotight area */
+.spotlight1{ 
+	background-color: #bbb; 
+	width: 200px;  
+	height:500px;
+    grid-column: 3; /* span across the third column */ 
+	margin-top: -620px;  
+}   
+.spotlight2 {
+	background-color: #bbb; 
+	width: 200px;  
+	height:200px; 
+    grid-column: 3; /* span across the third column */ 
+	margin-top: -200px;   
+	margin-bottom: 20px;
+} 
+.spotlight3{
+	background-color: #bbb; 
+	width: 200px;  
+	height:200px;
+    grid-column: 3; /* span across the third column */  
+	margin-top: -620px; 
+	margin-bottom: 20px;
+}
+
+.spotlight1, .spotlight2, .spotlight3{
+	text-align: center; 
+	color: white;
+}
+
+/* footer element */ 
+footer{ 
+	background-color:#708080;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;  
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb; 
+}
