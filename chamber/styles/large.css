@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+    /* styles for screens with width greater than or equal to 768px */
+  
+body {
+      font-size: 18px;
+    }
+  
+.h1, .h2, .h3, .h4, .h6{
+      font-size: 24px;
+    }
+  
+    /* other styles specific to large view */
+  }

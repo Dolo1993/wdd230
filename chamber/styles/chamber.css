@@ -27,7 +27,8 @@ header {
 .logo p{
 	margin-left: 20px; 
 	color: white; 
-	font-size: 30px;
+	font-size: 30px; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
 } 
 
 
@@ -55,7 +56,8 @@ nav a{
 	font-size: 20px;
 	text-decoration: none;  
 	margin-left: 30px; 
-	margin: 0.5em;
+	margin: 0.5em; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
 }
 
 /* hero element */ 
@@ -82,7 +84,8 @@ nav a{
 } 
 .event, .weather, .joint{
 	text-align: center; 
-	color: white;
+	color: white; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
 }
 
 
@@ -104,39 +107,66 @@ nav a{
 .hero, .news{
 	text-align: center; 
 	color: white;  
+	font-family: RocknRoll O, Helvetica, sans-serif;
 } 
 
 
 
 /* spotight area */
 .spotlight1{ 
-	background-color: #bbb; 
+	background-color: #bbb;
+    grid-column: 3; /* span across the third column */   
 	width: 200px;  
-	height:500px;
-    grid-column: 3; /* span across the third column */ 
-	margin-top: -620px;  
+	height:200px; 
+	margin-top: -620px;
+
+	 
 }   
 .spotlight2 {
 	background-color: #bbb; 
+    grid-column: 3; /* span across the third column */    
 	width: 200px;  
-	height:200px; 
-    grid-column: 3; /* span across the third column */ 
-	margin-top: -200px;   
-	margin-bottom: 20px;
+	height:200px;  
+	margin-top: -413px; 
+	
 } 
 .spotlight3{
 	background-color: #bbb; 
+    grid-column: 3; /* span across the third column */ 
 	width: 200px;  
-	height:200px;
-    grid-column: 3; /* span across the third column */  
-	margin-top: -620px; 
+	height:200px; 
+	margin-top: -202px; 
 	margin-bottom: 20px;
 }
 
 .spotlight1, .spotlight2, .spotlight3{
 	text-align: center; 
-	color: white;
+	color: white; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
+} 
+
+
+ 
+.date,
+aside { 
+	text-align: center; 
+	font-size: 16px; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color:blue; 
+	color: greenyellow; 
+	margin-top: -50px;
+} 
+#lastModified {   
+	color: greenyellow; 
+	border-top: 1px solid;
+	text-align: center;
+	font-size: 17px;  
+	font-family: RocknRoll O, Helvetica, sans-serif; 
 }
+
+
 
 /* footer element */ 
 footer{ 
@@ -147,4 +177,14 @@ footer{
 	justify-content: space-between;  
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb; 
-}
+} 
+footer h3{ 
+	color: white; 
+	margin-right: 500px; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
+} 
+footer h4{ 
+	color: white; 
+	margin-right: 50px; 
+	font-family: RocknRoll O, Helvetica, sans-serif;
+} 
