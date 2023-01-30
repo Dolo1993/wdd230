@@ -1,13 +1,27 @@
-@media only screen and (min-width: 768px) {
-    /* styles for screens with width greater than or equal to 768px */
-  
-body {
-      font-size: 18px;
+ /* Large view styles */
+ @media only screen and (min-width: 1024px) {
+    header {
+      display: flex;
+      justify-content: space-between;
     }
-  
-.h1, .h2, .h3, .h4, .h6{
-      font-size: 24px;
+    .logo {
+      width: 25%;
+      text-align: left;
     }
-  
-    /* other styles specific to large view */
+    nav {
+      width: 50%;
+      text-align: center;
+    }
+    .social {
+      width: 25%;
+      text-align: right;
+    }
+    .home-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+    }
   }
+ 
+
+
+

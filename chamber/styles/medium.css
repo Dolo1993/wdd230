@@ -1,19 +1,23 @@
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-    /* styles for screens with width between 481px and 767px */
-  
- body {
-      font-size: 16px;
-    }
-  
-.h1, .h2, .h3, .h4, .h6{
-      font-size: 20px;
-    }
-  
-    /* other styles specific to medium view */
+ /* Medium view styles */
+ @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
   }
-  In this example, the styles within the media query will only be applied when the screen width is between 481px and 767px. The styles change the font sizes of the body and h1 elements to provide an optimized experience for medium screens.
-  
-  
-  
-  
-  
+  .logo {
+    width: 25%;
+    text-align: center;
+  }
+  nav {
+    width: 50%;
+    text-align: center;
+  }
+  .social {
+    width: 25%;
+    text-align: center;
+  }
+  .home-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
