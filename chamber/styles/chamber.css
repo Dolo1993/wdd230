@@ -1,16 +1,13 @@
-
-content{
-	max-width: 1600px;
-}
-header {
+/* header element */
+header { 
   background-color: #708080;
   color: #fff;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-
+/* logo portion */
 .logo {
   display: flex;
   align-items: center;
@@ -22,9 +19,7 @@ header {
   margin-right: 10px;
 }
 
-nav {
-  display: flex;
-}
+/* nav area */
 
 nav a {
   color: #fff;
@@ -45,6 +40,8 @@ nav a {
   margin-right: 10px;
 }
 
+/* date area */
+
 .date {
   background-color: #333;
   color: #fff;
@@ -52,25 +49,27 @@ nav a {
   text-align: center;
 }
 
+/* parent container */
+
 .home-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  /* grid-gap: 50px; */
   margin-top: 20px;
 }
 
 .event, .weather, .join, .hero, .news, .spotlight1, .spotlight2, .spotlight3 { 
-  background-color: burlywood; 
+
   color: blue;
-  padding: 20px;
+  /* padding: 20px;  */
   text-align: center; 
   font-family: RocknRoll O, Helvetica, sans-serif; 
 } 
 
 .event-img, .weather-img, .card-img, .hero-img, .news-img, .spotlight1-img, .spotlight2-img, .spotlight3-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  /* object-fit: cover; */
 }
 
 
@@ -80,6 +79,9 @@ nav a {
 	margin-top: -50px; 
 	border-top: 1px solid;
 }
+
+/* footer element */
+
 
 
 footer {
@@ -100,7 +102,4 @@ footer h3 {
   margin-bottom: 30px;
 }
 
-/* footer h4 {
-  margin-left: 300px;
-  text-align: center;
-} */
+ 
