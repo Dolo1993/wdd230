@@ -2,9 +2,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px; 
-  /* height: 150px; 
-  width: 100%; */
+  padding: 5px;  
+  width: 100%; 
   background-color: #708080;;
   color: #fff;
 } 
@@ -26,14 +25,19 @@ p{
   margin: 20px; 
 } 
 /* nav elemrnt */
-nav a { 
+nav a {  
   color: white;
   text-decoration: none;  
   font-size: 20px; 
   font-family: RocknRoll O, Helvetica, sans-serif;
   margin: 5px;
   text-align: center;  
+} 
+nav a:hover {
+	background-color: green;
+	color: yellow;
 }
+
   /* header date */ 
 
 .date{ 
@@ -55,35 +59,86 @@ nav a {
   margin-bottom: 80px;
 }
 
-main {
-  padding: 20px;
-}
+/* images */ 
+.event-img, .weather-img, .weather-img, .join-img, .hero-img, .news-img, .spotlight1-img, .spotlight2-img, .spotlight3-img{
+  margin-top: 40px;  
+  border: 5px solid #708080; 
+  border-radius: 10px;
 
+  
+} 
+.event-img:hover{ 
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.weather-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.join-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.hero-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.news-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.spotlight1-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.spotlight2-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+.spotlight3-img:hover{
+  opacity: .9;
+    transform: scale(1.1);
+} 
+/* end of images */
+
+
+main {
+  padding:0;
+}
+/* grid area */
 .home-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px; 
+  grid-gap: 10px; 
 }
 
 .home-grid section, .home-grid div {
-  background-color: #f2f2f2;
-  padding: 20px;  
-  margin-top: 20px;
+  background-color: #f2f2f2;  
+  border: 1px solid blue; 
+  border-radius: 20px;
+  padding: 5px;  
+  margin-top: 20px; 
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .home-grid h2, .home-grid h4, .home-grid h6 {
   margin: 0;
 } 
+/* the H element */
 h3{
   color: white; 
-}
+} 
 
+
+
+/* footer area */
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px; 
+  width: 97%; 
   background-color: #333;
   color: #fff;
 }
