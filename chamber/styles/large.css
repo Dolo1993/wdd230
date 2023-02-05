@@ -8,9 +8,9 @@
       width: 25%;
       text-align: left;
     }
-    nav {
+    nav a{
       width: 50%;
-      text-align: center;
+      text-align: left;
     }
     .social {
       width: 25%;
