@@ -1,16 +1,16 @@
 header  {  
     width: 50%; 
     height: 40%;
-    background-color: rgb(46, 46, 157); 
+    background-color: blue;  
+    border-radius: 5px;
     text-align: center; 
     margin-top: 90px; 
     margin-bottom: 20px;  
-    border-radius: 10px; 
      
 }   
 
-.logo{ 
-    display: block;
+.logo{
+    display: block; 
     width: 130px; 
     padding-top: 20px; 
     margin-left: 20px;
@@ -41,7 +41,7 @@ body {
 
 h1 { 
 	margin-bottom: 15px; 
-    color: green; 
+    color: #708080; 
     border-bottom: 1px solid; 
     font-size: 30px; 
     text-align: center; 
@@ -60,7 +60,8 @@ h2{
 
 
 footer{
-    background-color: rgb(46, 46, 157);  
+    background-color: blue;  
+    border-radius: 5px;
     width: 50%;  
     height: 20%;
     text-align: center; 
@@ -69,10 +70,11 @@ footer{
 
 }
 main { 
-	border: 1px solid #bbb;
+	border: 1px solid blue; 
+    border-radius: 5px;
 	padding: 1rem;
-	background-color: #bed;
-	box-shadow: 0 0 20px rgba(0,0,0,.1); 
+	background-color: #f2f2f2;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);  
     font-family: 'Roboto', sans-serif;
     
 }
@@ -107,7 +109,7 @@ h6 {
 }
 
 .highlight {
-	color: navy;
+	color: navy; 
 }
 
 .message-box{

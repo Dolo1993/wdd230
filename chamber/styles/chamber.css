@@ -110,6 +110,12 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px; 
+} 
+details{
+color: blue; 
+padding: 4px;
+margin: 0;
+/* box-shadow: 1px 1px 1px #bbbbbb; */
 }
 
 .home-grid section, .home-grid div {
@@ -128,7 +134,11 @@ main {
 /* the H element */
 h3{
   color: white; 
-} 
+}  
+h2{
+  font-size: 15px;
+}
+
 
 
 
