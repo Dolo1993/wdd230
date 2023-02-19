@@ -85,7 +85,7 @@ figcaption {
 }
 
 .gallery img {
-  filter: blur(0px);
+  filter: blur(10px);
 }
 
 /* Define CSS hover effect */
