@@ -1,73 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles/discover.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/chamber.css">
     <title>Koyo Chamber of Commerce | Discover Koyo</title>
   </head>
   <body>
-    <header>a
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="discover.html" class="active">Discover</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+    <div id="content">
+      <header>
+          <div class ="logo"> 
+              <img class="logo-img" src="images/logo.png" alt="chamber logo"> 
+              <p>Koyo
+              <br>
+              Chamber of Commerce</p>
+          </div>
+          <nav> 
+              <a href="discover.html">Discover</a> 
+              <a href="">Directory</a> 
+              <a href="">join</a> 
+              <a href="">Contact Us</a> 
+              <a href="">Site Plan</a>   
+              <a href="../index.html">WDD230 Portal</a>
+          </nav>
+          <div class="social">
+              <a href="https://facebook.com" target="_blank"> 
+              <img class="facebook" src="images/facebook.png" alt="fb icon">
+              </a>  
+              <a href="https://instagram.com" target="_blank">
+              <img class="instagram" src="images/instagram.png" alt="instagram icon"> 
+              </a>
+          </div>
+      </header> 
+      <div class="date"></div>
+    <main> 
+      <section class="storage">  
+        <h1>📅 Using localStorage</h1>
+        <p>This demonstration page keeps track of the total number of visits by user utilizing the localStorage option of the Web Storage API.</p>
+      
+        <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+        <hr>
+        <p>Timestamp is based upon time since “Unix epoch” 1970-01-01T00:00:00Z (UTC),<br>i.e., January 1, 1970.</p>
+        <p><code>Date.now(): </code> <span id="today"></span> (milliseconds)</p>
+        <hr>
+        <p><span class="label">Days until Christmas:</span> <span id="daysleft"></span></p>
+      </section>
       <h1>Discover Koyo</h1>
-      <p>Welcome to Koyo, a beautiful city located in the heart of the country. Below you will find some information about our city and some images that showcase our community. We hope you enjoy exploring Koyo!</p>
+      <p>
+        Welcome to Koyo, a beautiful city located in the heart of the country.
+        Below you will find some information about our city and some images that
+        showcase our community. We hope you enjoy exploring Koyo!
+      </p>
       <section class="gallery">
         <figure>
-          <img 
-          src="data/img/placeholder.png"
-          data-src="images/image3.jpg"
-          alt="Koyo City Hall"
-          class="lazy"
-        />
+          <img
+            src="data/img/placeholder.png"
+            data-src="images/image01.jpg"
+            alt="discover image"
+            class="lazy"
+          /> 
+        </figure> 
+
+        <figure>
+          <img
+            src="data/img/placeholder.png"
+            data-src="images/image02.jpg"
+            alt="Koyo City Hall"
+            class="lazy"
+          />
           <figcaption>Koyo City Hall</figcaption>
         </figure>
         <figure>
-          <img 
-          src="data/img/placeholder.png"
-          data-src="images/spot1.jpg"
-    alt="Koyo City Hall"
-    class="lazy"
-  />
+          <img
+            src="data/img/placeholder.png"
+            data-src="images/image03.jpg"
+            alt="Koyo lake image"
+            class="lazy"
+          />
           <figcaption>Koyo Lake</figcaption>
         </figure>
         <figure>
-          <img 
-          src="data/img/placeholder.png"
-          data-src="images/image3.jpg"
-          alt="Koyo City Hall"
-          class="lazy"
-        />
-          <figcaption>Koyo Shopping District</figcaption>
-        </figure>
-        <figure>
-          <img 
-          src="data/img/placeholder.png"
-          data-src="images/image2.jpg"
-    alt="Koyo City Hall"
-    class="lazy"
-  />
-          <figcaption>Koyo Skyline</figcaption>
-        </figure>
+          <img
+            src="data/img/placeholder.png"
+            data-src="images/image04.jpg"
+            alt="disrict image"
+            class="lazy"
+            />
+          <figcaption>Koyo</figcaption>
+        </figure> 
+
         <figure>
           <img
-          src="data/img/placeholder.png"
-           data-src="images/spot3.jpg"
-    alt="Koyo City Hall"/
-    class="lazy"
-  />
-          <figcaption>Koyo Park</figcaption>
-        </figure>
-      </section>
+            src="data/img/placeholder.png"
+            data-src="images/image05.jpg"
+            alt="skyline image"
+            class="lazy"
+          /> 
+          <figcaption>Koyo Skyline</figcaption>
+          </figure> 
+
       <section class="demographics">
         <h2>Demographics</h2>
         <ul>
@@ -79,9 +111,9 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 Koyo Chamber of Commerce</p>
+      <p>&copy; 2023 Koyo Chamber of Commerce</p> 
+      <div id="lastModified">©2023 KOYO CHAMBER | DOLO, EMMANUEL DK. | Last Modifcation: <span id="currentdate"></span>
     </footer>
-      <script src='scripts/discover.js'></script> 
-</body>
-</html>    
-     
+    <script src="scripts/discover.js"></script>
+  </body>
+</html>
