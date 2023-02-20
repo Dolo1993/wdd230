@@ -1,24 +1,35 @@
-const lazyImages = document.querySelectorAll('img.lazy');
+const imgElements = document.querySelectorAll("img[data-src]"); 
+const lazyLoadingObserver=new IntersectionObserver(
+  (entries, observer)=>{
+    console.log(entries);  
+    entries.forEach((entry) => { 
+    if (!entry.isIntersecting)return; 
+    entry.target.src = entry.target.dataset.src; 
+    entry.target.addEventListener('load',()=>{
+      entry.target.classList.remove('gallery-img')
+   })
+  });  
+ }, 
+ {threshold: 0.9}
+);  
+imgElements.forEach((img) =>lazyLoadingObserver.observe(img));
 
-const lazyLoad = target => {
-  const io = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        const src = img.getAttribute('data-src');
+ 
 
-        img.setAttribute('src', src);
-        img.classList.remove('lazy');
 
-        observer.disconnect();
-      }
-    });
-  });
 
-  io.observe(target);
-};
 
-lazyImages.forEach(lazyLoad);
+
+
+
+
+
+
+
+
+
+
+
 // initialize display elements
 const todayDisplay = document.querySelector("#today");
 const visitsDisplay = document.querySelector("#visits");
