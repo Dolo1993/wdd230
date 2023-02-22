@@ -33,8 +33,25 @@ let daysleft = (christmas.getTime() - Date.now()) / 84600000;
 
 daysLeftOutput.innerHTML = `${daysleft.toFixed(
 	0
-)} days<br> 🎄Christmas is ${christmas}`;
+)} days<br> 🎄Christmas is ${christmas}`; 
 
+
+// Get the current date and time
+const currentDate = new Date();
+
+// Check if a previous visit date is stored in local storage
+const lastVisited = localStorage.getItem('lastVisited');
+
+if (lastVisited) {
+  // Calculate the number of days between the current date and the last visit date
+  const daysSinceLastVisit = Math.round((currentDate - new Date(lastVisited)) / (1000 * 60 * 60 * 24));
+
+  // Display the number of days since the last visit
+  document.getElementById('lastVisited').textContent = daysSinceLastVisit;
+}
+
+// Store the current visit date in local storage
+localStorage.setItem('lastVisited', currentDate);
 
 
 
