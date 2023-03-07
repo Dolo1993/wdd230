@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1, h2, p {
+    color: #333;
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  
+  /* Image links */
+  a img { 
+    border: none;
+    /* width: 100%; */
+    /* height: auto; */
+  }
+  
+  /* Company info sections */
+#company-info, #company-info2, #company-info3, #company-info4, #company-info5, #company-info6, #company-info7, #company-info8, #company-info9 {
+    display: flex;
+    flex-wrap: wrap; 
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    margin: 5px; 
+    margin-right: 10px;
+    max-width: 220px;
+  }
+  
+  /* Grid layout for images */
+  #company-info,
+  #company-info2,
+  #company-info3,
+  #company-info4, 
+  #company-info5,
+  #company-info6,
+  #company-info7,
+  #company-info8,
+  #company-info9{
+    display: grid;
+    grid-template-columns: fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 800px) {
+    #company-info, #company-info2, #company-info3, #company-info4, #company-info5, #company-info6, #company-info7, #company-info8, #company-info9 {
+      grid-template-columns: 1fr;
+      margin: 20px auto;
+    }
+  }

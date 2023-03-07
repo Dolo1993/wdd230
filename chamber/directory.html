@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Koyo chamber</title> 
+  <link rel="stylesheet" href="styles/directory.css">
+</head>
+<body> 
+   
+  <!-- Comp any area 1 -->
+  <h1>Company Information</h1>
+  <h2>You can click on any of the below images for more detail</h2><br>
+  <div id="company-info"></div>
+
+  <script>
+    const companyData = {
+      "company_name": "Wolff Olins",
+      "location": {
+        "city": "London",
+        "state": "UK",
+        "country": "United Kingdom", 
+        "website": "https://www.wolffolins.com/",  
+      }, 
+      "member_level": "Gold",
+      "phone_number": "+1 123-456-7890",  
+      "image": "images/c1.jpg" 
+    }
+
+    const companyInfo = document.querySelector('#company-info');
+    companyInfo.innerHTML = `
+      <h2>${companyData.company_name}</h2>
+      <p>Location: ${companyData.location.city}, ${companyData.location.state}, ${companyData.location.country}</p>
+      <p>Phone Number: ${companyData.phone_number}</p>  
+      <p>Membership Level: ${companyData.member_level}</p>
+      <a href="${companyData.website}" target="_blank"><img src="${companyData.image}" alt="${companyData.company_name} logo"></a>
+    `;
+  </script>
+
+
+
+  <!-- Company area 2 -->
+  <div id="company-info2"></div>
+
+  <script>
+    const companyData2 = {
+      "company_name": "Tembosoft Limited",
+      "location": {
+        "city": "Dodoma",
+        "state": "D",
+        "country": "Tanzania", 
+        "website": "https://techbehemoths.com/company/tembosoft-limited",  
+      }, 
+      "member_level": "Platinum",
+      "phone_number": "+255 251-253-235",  
+      "image": "images/c2.jpg" 
+    }
+
+    const companyInfo2 = document.querySelector('#company-info2');
+    companyInfo2.innerHTML = `
+      <h2>${companyData2.company_name}</h2>
+      <p>Location: ${companyData2.location.city}, ${companyData2.location.state}, ${companyData2.location.country}</p>
+      <p>Phone Number: ${companyData2.phone_number}</p>  
+      <p>Membership Level: ${companyData2.member_level}</p>
+      <a href="${companyData2.website}" target="_blank"><img src="${companyData2.image}" alt="${companyData2.company_name} logo"></a>
+    `; 
+    </script>  
+
+
+
+  <!-- Company area 3 -->
+  <div id="company-info3"></div>
+
+  <script>
+    const companyData3 = {
+      "company_name": "Happy Cog",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA", 
+        "website": "https://www.happycog.com/",  
+      }, 
+      "member_level": "Silver",
+      "phone_number": "T (212) 380-8227 Ext. 1003",  
+      "image": "images/c3.jpg" 
+    }
+
+    const companyInfo3 = document.querySelector('#company-info3');
+    companyInfo3.innerHTML = `
+      <h2>${companyData3.company_name}</h2>
+      <p>Location: ${companyData3.location.city}, ${companyData3.location.state}, ${companyData3.location.country}</p>
+      <p>Phone Number: ${companyData3.phone_number}</p>  
+      <p>Membership Level: ${companyData3.member_level}</p>
+      <a href="${companyData3.website}" target="_blank"><img src="${companyData3.image}" alt="${companyData3.company_name} logo"></a>
+    `; 
+  </script>  
+
+
+
+
+  <!-- Company area 4 -->
+  <div id="company-info4"></div>
+
+  <script>
+    const companyData4 = {
+      "company_name": "The Chase",
+      "location": {
+        "city": "Preston and London",
+        "state": "PL",
+        "country": "UK", 
+        "website": "https://thechase.co.uk/?_ga=2.139980723.1826611946.1678160463-1442850356.1678160463",  
+      }, 
+      "member_level": "Bronze",
+      "phone_number": "+44 (0) 161 832 5575",  
+      "image": "images/c4.jpg" 
+    }
+
+    const companyInfo4 = document.querySelector('#company-info4');
+    companyInfo4.innerHTML = `
+      <h2>${companyData4.company_name}</h2>
+      <p>Location: ${companyData4.location.city}, ${companyData4.location.state}, ${companyData4.location.country}</p>
+      <p>Phone Number: ${companyData4.phone_number}</p>  
+      <p>Membership Level: ${companyData4.member_level}</p>
+      <a href="${companyData4.website}" target="_blank"><img src="${companyData4.image}" alt="${companyData4.company_name} logo"></a>
+    `; 
+  </script>  
+
+
+
+  <!-- Company area 5 -->
+  <div id="company-info5"></div>
+
+  <script>
+    const companyData5 = {
+      "company_name": "Mucho",
+      "location": {
+        "city": "Paris and San Francisco",
+        "state": "PSF",
+        "country": "France&USA", 
+        "website": "https://wearemucho.com/?_ga=2.64276399.1826611946.1678160463-1442850356.1678160463",  
+      }, 
+      "member_level": "Platinum",
+      "phone_number": "+33 (0)1 73 71 58 20",  
+      "image": "images/c5.jpg" 
+    }
+
+    const companyInfo5 = document.querySelector('#company-info5');
+    companyInfo5.innerHTML = `
+      <h2>${companyData5.company_name}</h2>
+      <p>Location: ${companyData5.location.city}, ${companyData2.location.state}, ${companyData5.location.country}</p>
+      <p>Phone Number: ${companyData5.phone_number}</p>  
+      <p>Membership Level: ${companyData5.member_level}</p>
+      <a href="${companyData5.website}" target="_blank"><img src="${companyData5.image}" alt="${companyData5.company_name} logo"></a>
+    `;
+  </script> 
+
+
+
+  <!-- Company area 6 -->
+  <div id="company-info6"></div>
+
+  <script>
+    const companyData6 = {
+      "company_name": "Anagrama",
+      "location": {
+        "city": "Mexico City and Tokyo",
+        "state": "MC&T",
+        "country": "Mexico&Tokyo", 
+        "website": "https://www.anagrama.com/?_ga=2.35111841.1826611946.1678160463-1442850356.1678160463",  
+      }, 
+      "member_level": "Gold",
+      "phone_number": "+52 (81) 8336-6666",  
+      "image": "images/c6.jpg" 
+    }
+
+    const companyInfo6 = document.querySelector('#company-info6');
+    companyInfo6.innerHTML = `
+      <h2>${companyData6.company_name}</h2>
+      <p>Location: ${companyData6.location.city}, ${companyData6.location.state}, ${companyData6.location.country}</p>
+      <p>Phone Number: ${companyData6.phone_number}</p>  
+      <p>Membership Level: ${companyData6.member_level}</p>
+      <a href="${companyData6.website}" target="_blank"><img src="${companyData6.image}" alt="${companyData6.company_name} logo"></a>
+    `;
+  </script> 
+  
+  
+
+  <!-- Company area 7 -->
+  <div id="company-info7"></div>
+
+  <script>
+    const companyData7 = {
+      "company_name": "Studio Dumbar",
+      "location": {
+        "city": "Rotterdam",
+        "state": "R",
+        "country": "Rotterdam", 
+        "website": "https://studiodumbar.com/?_ga=2.96792351.1826611946.1678160463-1442850356.1678160463",  
+      }, 
+      "member_level": "Bronze",
+      "phone_number": "+31 10 448 22 22",  
+      "image": "images/c7.jpg" 
+    }
+
+    const companyInfo7 = document.querySelector('#company-info7');
+    companyInfo7.innerHTML = `
+      <h2>${companyData7.company_name}</h2>
+      <p>Location: ${companyData7.location.city}, ${companyData7.location.state}, ${companyData7.location.country}</p>
+      <p>Phone Number: ${companyData7.phone_number}</p>  
+      <p>Membership Level: ${companyData7.member_level}</p>
+      <a href="${companyData7.website}" target="_blank"><img src="${companyData7.image}" alt="${companyData7.company_name} logo"></a>
+    `;
+  </script>  
+
+
+  <!-- Company area 8 -->
+  <div id="company-info8"></div>
+
+  <script>
+    const companyData8 = {
+      "company_name": "Spin",
+      "location": {
+        "city": "London",
+        "state": "L",
+        "country": "UK", 
+        "website": "https://spin.co.uk/?_ga=2.67422097.1826611946.1678160463-1442850356.1678160463",
+      }, 
+      "member_level": "Silver",
+      "phone_number": "+44 (0) 961 802 0125",  
+      "image": "images/c8.jpg" 
+    }
+
+    const companyInfo8 = document.querySelector('#company-info8');
+    companyInfo8.innerHTML = `
+      <h2>${companyData8.company_name}</h2>
+      <p>Location: ${companyData8.location.city}, ${companyData8.location.state}, ${companyData8.location.country}</p>
+      <p>Phone Number: ${companyData8.phone_number}</p>  
+      <p>Membership Level: ${companyData8.member_level}</p>
+      <a href="${companyData8.website}" target="_blank"><img src="${companyData8.image}" alt="${companyData8.company_name} logo"></a>
+    `;
+  </script>  
+
+
+  
+  <!-- Company area 9 -->
+  <div id="company-info9"></div>
+
+  <script>
+    const companyData9 = {
+      "company_name": "Bedow",
+      "location": {
+        "city": "Stockholm",
+        "state": "SM",
+        "country": "Sweden", 
+        "website": "https://www.bedow.se/?_ga=2.29852735.1826611946.1678160463-1442850356.1678160463",  
+      }, 
+      "member_level": "Gold",
+      "phone_number": "+46 8 720 34 00",  
+      "image": "images/c9.jpg" 
+    }
+
+    const companyInfo9 = document.querySelector('#company-info9');
+    companyInfo9.innerHTML = `
+      <h2>${companyData9.company_name}</h2>
+      <p>Location: ${companyData9.location.city}, ${companyData9.location.state}, ${companyData9.location.country}</p>
+      <p>Phone Number: ${companyData9.phone_number}</p>  
+      <p>Membership Level: ${companyData9.member_level}</p>
+      <a href="${companyData9.website}" target="_blank"><img src="${companyData9.image}" alt="${companyData9.company_name} logo"></a>
+    `;
+  </script>
+</body> 
+</html>
