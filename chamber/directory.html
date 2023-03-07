@@ -6,21 +6,20 @@
   <link rel="stylesheet" href="styles/directory.css">
 </head>
 <body> 
-   
   <!-- Comp any area 1 -->
-  <h1>Company Information</h1>
-  <h2>You can click on any of the below images for more detail</h2><br>
-  <div id="company-info"></div>
-
-  <script>
+  <h1> Here are some best graphic design companies around the world</h1>
+  <h2>click on any of the below images for more detail</h2><br> 
+  <div class="container"> 
+    <div id="company-info"></div>
+    <script>
     const companyData = {
       "company_name": "Wolff Olins",
       "location": {
         "city": "London",
         "state": "UK",
-        "country": "United Kingdom", 
-        "website": "https://www.wolffolins.com/",  
-      }, 
+        "country": "United Kingdom",  
+      },  
+      "website": "https://www.wolffolins.com/",
       "member_level": "Gold",
       "phone_number": "+1 123-456-7890",  
       "image": "images/c1.jpg" 
@@ -47,9 +46,9 @@
       "location": {
         "city": "Dodoma",
         "state": "D",
-        "country": "Tanzania", 
-        "website": "https://techbehemoths.com/company/tembosoft-limited",  
-      }, 
+        "country": "Tanzania",
+      },  
+      "website": "https://techbehemoths.com/company/tembosoft-limited",
       "member_level": "Platinum",
       "phone_number": "+255 251-253-235",  
       "image": "images/c2.jpg" 
@@ -76,9 +75,9 @@
       "location": {
         "city": "New York",
         "state": "NY",
-        "country": "USA", 
-        "website": "https://www.happycog.com/",  
-      }, 
+        "country": "USA",   
+      },  
+      "website": "https://www.happycog.com/",
       "member_level": "Silver",
       "phone_number": "T (212) 380-8227 Ext. 1003",  
       "image": "images/c3.jpg" 
@@ -107,8 +106,8 @@
         "city": "Preston and London",
         "state": "PL",
         "country": "UK", 
-        "website": "https://thechase.co.uk/?_ga=2.139980723.1826611946.1678160463-1442850356.1678160463",  
-      }, 
+      },  
+      "website": "https://thechase.co.uk/?_ga=2.139980723.1826611946.1678160463-1442850356.1678160463",
       "member_level": "Bronze",
       "phone_number": "+44 (0) 161 832 5575",  
       "image": "images/c4.jpg" 
@@ -135,9 +134,9 @@
       "location": {
         "city": "Paris and San Francisco",
         "state": "PSF",
-        "country": "France&USA", 
-        "website": "https://wearemucho.com/?_ga=2.64276399.1826611946.1678160463-1442850356.1678160463",  
-      }, 
+        "country": "France&USA",  
+      },  
+      "website": "https://wearemucho.com/?_ga=2.64276399.1826611946.1678160463-1442850356.1678160463",
       "member_level": "Platinum",
       "phone_number": "+33 (0)1 73 71 58 20",  
       "image": "images/c5.jpg" 
@@ -164,9 +163,9 @@
       "location": {
         "city": "Mexico City and Tokyo",
         "state": "MC&T",
-        "country": "Mexico&Tokyo", 
-        "website": "https://www.anagrama.com/?_ga=2.35111841.1826611946.1678160463-1442850356.1678160463",  
-      }, 
+        "country": "Mexico&Tokyo",
+      },  
+      "website": "https://www.anagrama.com/?_ga=2.35111841.1826611946.1678160463-1442850356.1678160463",
       "member_level": "Gold",
       "phone_number": "+52 (81) 8336-6666",  
       "image": "images/c6.jpg" 
@@ -193,9 +192,9 @@
       "location": {
         "city": "Rotterdam",
         "state": "R",
-        "country": "Rotterdam", 
-        "website": "https://studiodumbar.com/?_ga=2.96792351.1826611946.1678160463-1442850356.1678160463",  
+        "country": "Rotterdam",   
       }, 
+      "website": "https://studiodumbar.com/?_ga=2.96792351.1826611946.1678160463-1442850356.1678160463", 
       "member_level": "Bronze",
       "phone_number": "+31 10 448 22 22",  
       "image": "images/c7.jpg" 
@@ -222,8 +221,8 @@
         "city": "London",
         "state": "L",
         "country": "UK", 
-        "website": "https://spin.co.uk/?_ga=2.67422097.1826611946.1678160463-1442850356.1678160463",
-      }, 
+      },  
+      "website": "https://spin.co.uk/?_ga=2.67422097.1826611946.1678160463-1442850356.1678160463",
       "member_level": "Silver",
       "phone_number": "+44 (0) 961 802 0125",  
       "image": "images/c8.jpg" 
@@ -250,9 +249,9 @@
       "location": {
         "city": "Stockholm",
         "state": "SM",
-        "country": "Sweden", 
-        "website": "https://www.bedow.se/?_ga=2.29852735.1826611946.1678160463-1442850356.1678160463",  
-      }, 
+        "country": "Sweden",  
+      },  
+      "website": "https://www.bedow.se/?_ga=2.29852735.1826611946.1678160463-1442850356.1678160463",
       "member_level": "Gold",
       "phone_number": "+46 8 720 34 00",  
       "image": "images/c9.jpg" 
@@ -266,6 +265,7 @@
       <p>Membership Level: ${companyData9.member_level}</p>
       <a href="${companyData9.website}" target="_blank"><img src="${companyData9.image}" alt="${companyData9.company_name} logo"></a>
     `;
-  </script>
+  </script>  
+  </div>
 </body> 
 </html>
