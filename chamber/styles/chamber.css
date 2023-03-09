@@ -152,14 +152,25 @@ h5{
   margin-top: -300px; 
 
 }
- 
+ /* weather portion */
 h4{  
   color:blue;   
   font-size: 40px; 
   font-family: RocknRoll O, Helvetica, sans-serif;
   padding-top: 40px; 
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid red; 
+}  
+
+img#weather-icon { 
+  background-color: blue;
+  max-width: 100px;
+  height: auto;
 } 
+span#current-temp {
+  font-weight: bold;
+  color: gold;
+}
+
 #weather p{ 
   background-color: blue; 
   color: white;  
