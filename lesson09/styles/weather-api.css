@@ -1,0 +1,61 @@
+/* set styles for the body element */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* set styles for the container div */
+  .container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    border: 3px solid blue; 
+    border-radius: 20px;
+  }
+  
+  /* set styles for the h1 element */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* set styles for the p element */
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* set styles for the span element inside the p element */
+  span#current-temp {
+    font-weight: bold;
+    color: #008CBA;
+  }
+  
+  /* set styles for the h2 element */
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* set styles for the figure element */
+  figure {
+    text-align: center;
+  }
+  
+  /* set styles for the img element inside the figure element */
+  img#weather-icon { 
+    background-color: blue;
+    max-width: 100px;
+    height: auto;
+  }
+  
+  /* set styles for the figcaption element inside the figure element */
+  figcaption {
+    font-size: 14px;
+    margin-top: 10px;
+  }
