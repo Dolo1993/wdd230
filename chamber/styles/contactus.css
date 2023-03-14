@@ -1,0 +1,118 @@
+ /* Set the background color of the page */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333; 
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+main{ 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  header p {
+    font-style: italic; 
+  } 
+  
+  /* Style the main section */
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+section h2 {
+    color:white;
+    margin-bottom: 10px; 
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  /* Style the form */
+  form {
+    display: block;    
+    max-width: 500px;  
+    margin-left: 60px;
+  }
+  
+h3{
+    color: blue;
+    margin-left: 20px;   
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h4{ 
+    color: blue;
+    margin-left: 20px;  
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+} 
+ul{ 
+color: purple;
+}
+
+h5{
+    color: blue;
+    text-align: center; 
+    margin-top: 10px; 
+    margin-left: 30px; 
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color:green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
