@@ -3,9 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Koyo chamber</title> 
-  <link rel="stylesheet" href="styles/directory.css">
+  <link rel="stylesheet" href="styles/directory.css"> 
+  <link rel="stylesheet" href="styles/discover.css">
 </head>
 <body> 
+  <header>
+    <div class ="logo">
+      <img class="logo-img" src="images/logo.png" alt="chamber logo">
+      <p>Koyo
+      <br>
+      Chamber of Commerce</p>
+    </div>
+    <nav> 
+      <a href="index.html">Home</a> 
+      <a href="discover.html">Discover</a>  
+      <a href="contact.html">Contact Us</a> 
+      <!-- <a href="">Site Plan</a>    -->
+      <a href="../index.html">WDD230 Portal</a>
+    </nav>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank">
+        <img class="facebook" src="images/facebook.png" alt="fb icon">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img class="instagram" src="images/instagram.png" alt="instagram icon"> 
+      </a>
+    </div>
+  </header> 
   <!-- Comp any area 1 -->
   <h1> Here are some best graphic design companies around the world</h1>
   <h2>click on any of the below images for more detail</h2><br> 
@@ -266,6 +290,12 @@
       <a href="${companyData9.website}" target="_blank"><img src="${companyData9.image}" alt="${companyData9.company_name} logo"></a>
     `;
   </script>  
-  </div>
+  </div> 
+  <footer>
+    <p>&copy; 2023 Koyo Chamber of Commerce</p> 
+    <div id="lastModified">©2023 KOYO CHAMBER | DOLO, EMMANUEL DK. | Last Modifcation: <span id="currentdate"></span>
+  </footer>
+  <script src="scripts/discover.js"></script> 
+  <script src="scripts/chamber.js"></script>
 </body> 
 </html>
