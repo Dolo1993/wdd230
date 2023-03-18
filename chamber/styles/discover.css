@@ -72,7 +72,7 @@ section.gallery {
   margin: 1rem 0;
 }  
 .gallery img{
-  border: 2px solid blue; 
+  border: 2px solid rgb(128, 128, 128);  
   border-radius: 5px; 
   /* filter: blur(10px); */
 }
@@ -93,10 +93,10 @@ figure {
 } 
 
 
-figcaption { 
-  text-align:initial;
+figcaption {  
+  text-align:initial; 
   margin-top: 0.5rem;
-  font-size: 0.9rem; 
+  font-size: 0.9rem;  
   font-family: RocknRoll O, Helvetica, sans-serif;
 
 }
@@ -162,11 +162,11 @@ textarea {
 
 /* Style the required form inputs */
 input:required {
-  border-color: blue;
+  border-color:gray ;
 }
 
 input:required:focus {
-  border-color: blue;
+  border-color: grey;
 }
 
 /* Style the submit button */
@@ -203,7 +203,7 @@ input[type="submit"]:hover{
 }  
 h1{ 
   display: flex;  
-  color: forestgreen;
+  color: grey;
   flex-direction: column; 
   font-size: 25px;
   text-align: center;  
@@ -212,7 +212,7 @@ h1{
 } 
 h2{ 
   display: block;
-  background-color: blue;  
+  background-color:grey;  
   color: white; 
   text-align: center;
 } 
