@@ -43,13 +43,20 @@
   }
   
   /* Responsive layout for smaller screens */
-  @media (max-width: 800px) { 
-
-.container{
-  grid-template-columns: 1fr;
-}
-  #company-info, #company-info2, #company-info3, #company-info4, #company-info5, #company-info6, #company-info7, #company-info8, #company-info9 {
-  grid-template-columns: 1fr;
-  margin: 20px auto;
-  }
+  @media only screen and (max-width: 600px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .social {
+      margin-top: 20px;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
