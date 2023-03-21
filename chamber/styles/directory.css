@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   }
   
   body {
@@ -30,8 +30,7 @@
   
   /* Company info sections */
   #company-info, #company-info2, #company-info3, #company-info4, #company-info5, #company-info6, #company-info7, #company-info8, #company-info9 {
-  display: flex;
-  flex-direction: column; 
+  display: grid;
   justify-content: center;
   align-content: center;
   justify-items: center;
