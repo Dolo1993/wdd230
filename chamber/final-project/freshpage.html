@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Make Your Own Drink | Fruit Drinks</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<h1>Make Your Own Drink</h1>
+		<h2>Choose Your Fruits</h2>
+	</header>
+	<main>
+		<form id="drink-form">
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" name="first-name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" required>
+
+			<label for="fruit1">Fruit 1:</label>
+			<select id="fruit1" name="fruit1">
+				<option value="" selected disabled>Select a Fruit</option>
+			</select>
+
+			<label for="fruit2">Fruit 2:</label>
+			<select id="fruit2" name="fruit2">
+				<option value="" selected disabled>Select a Fruit</option>
+			</select>
+
+			<label for="fruit3">Fruit 3:</label>
+			<select id="fruit3" name="fruit3">
+				<option value="" selected disabled>Select a Fruit</option>
+			</select>
+
+			<label for="special-instructions">Special Instructions:</label>
+			<textarea id="special-instructions" name="special-instructions"></textarea>
+
+			<button type="submit">Submit</button>
+		</form>
+
+		<div id="output-area" class="hidden">
+			<h3>Your Drink Order</h3>
+			<p>Name: <span id="output-name"></span></p>
+			<p>Email: <span id="output-email"></span></p>
+			<p>Phone: <span id="output-phone"></span></p>
+			<p>Fruit 1: <span id="output-fruit1"></span></p>
+			<p>Fruit 2: <span id="output-fruit2"></span></p>
+			<p>Fruit 3: <span id="output-fruit3"></span></p>
+			<p>Special Instructions: <span id="output-special-instructions"></span></p>
+			<p>Date: <span id="output-date"></span></p>
+			<h3>Nutritional Information</h3>
+			<p>Carbohydrates: <span id="output-carbs"></span> g</p>
+			<p>Protein: <span id="output-protein"></span> g</p>
+			<p>Fat: <span id="output-fat"></span> g</p>
+			<p>Sugar: <span id="output-sugar"></span> g</p>
+			<p>Calories: <span id="output-calories"></span> kcal</p> 
+			
+        </div>  
+		
+    </main>
+    <footer>
+        <p>&copy; 2023 Make Your Own Drink. All rights reserved.</p>
+    </footer>
+    <script src="scripts/freshpage.js"></script>  
+	
+</body> 
+</html>
