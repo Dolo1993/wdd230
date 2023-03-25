@@ -185,10 +185,8 @@ li{
     /* styles for small screens */
     #specialty-drinks{
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr 1fr; 
         grid-gap: 10px;
-      display: flex;
-      flex-direction: column;
     } 
     header ul{
       display: flex;
@@ -201,7 +199,7 @@ li{
 
     #coastal-area{
       display: grid;
-      grid-template-columns: 1fr; 
+      grid-template-columns: 1fr 1fr; 
       grid-gap: 10px;
     }
   }
