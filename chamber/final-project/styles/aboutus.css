@@ -1,0 +1,131 @@
+/* Global styles */
+body {
+	background-image: url("images/fruit5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family:  RocknRoll O, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* Style the header section */
+header {
+    background-color: rgba(16, 112, 16, 0.644); 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  } 
+/* logo element */
+header .logo {
+    display: flex;
+    align-items: center;
+  } 
+  
+  /* logo */
+  .logo-img{ 
+    width: 70px; 
+    height: 70px;
+    margin-top: -10;  
+    margin-left: 4px; 
+    margin-bottom: -30px; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+  } 
+  header p{
+    color: orange; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px;
+  }
+  
+  nav a {
+    font-weight: bold;  
+    color:white;  
+    text-decoration: none;
+    font-size: 20px; 
+    font-family:  RocknRoll O, Helvetica, sans-serif;
+  }
+  
+    nav a:hover {  
+      background-color: #4CAF50; 
+      border: 2px solid green; 
+    }
+h3 {
+    margin-top: 0; 
+    color: white;
+  }
+p{
+    color: white; 
+    font-size: 20px; 
+    font-family:  RocknRoll O, Helvetica, sans-serif;
+}
+  /* Main content styles */
+  main {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h3 { 
+    background-color:  rgba(16, 112, 16, 0.644); 
+    width: 50%;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  #contact{
+    color: white;
+  } 
+#resources{
+    color: white;
+  }
+  section p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #000;
+    border: 3px solid white; 
+    border-radius: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color:  rgba(16, 112, 16, 0.644);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #last-modified {
+    font-style: italic;
+  }

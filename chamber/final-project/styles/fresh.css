@@ -1,0 +1,165 @@
+/* Global styles */
+body {
+    background-image: url(images/fruit3.jpg);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+    
+    /* Style the header section */
+  header {
+    background-color: rgba(16, 112, 16, 0.644); 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  } 
+/* logo element */
+header .logo {
+    display: flex;
+    align-items: center;
+  } 
+  
+  /* logo */
+  .logo-img{ 
+    width: 70px; 
+    height: 70px;
+    margin-top: -10;  
+    margin-left: 4px; 
+    margin-bottom: -30px; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+  } 
+  header p{
+    color: orange; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px;
+  }
+  
+  nav a {
+    font-weight: bold;  
+    color:white;  
+    text-decoration: none;
+    font-size: 20px; 
+    font-family:  RocknRoll O, Helvetica, sans-serif;
+  }
+  
+    nav a:hover {  
+      background-color: #4CAF50; 
+      border: 2px solid green; 
+    }
+    
+    main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+      
+    h1, h2 {  
+    display: block;  
+    width: 50%; 
+    margin: auto;
+    background-color: white;
+    color: rgb(16, 112, 16);
+    text-align: center; 
+
+    }
+    #drink-form{ 
+        text-align: center;  
+        font-size: 20px;
+    }  
+    form label {  
+    display: block;
+    background-color: rgba(75, 163, 40, 0.774);
+    color: white;
+    width: 50%; 
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    form input, form select, form textarea {  
+    display: block;
+    margin: auto; 
+    text-align: center;
+    width: 50%;
+    padding: 10px; 
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    }
+    #output-area {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+      }
+      
+    #output-area h3 {
+    margin-top: 0;
+    }
+      
+    #output-area p {
+    margin: 10px 0;
+    }
+      
+    #output-area span {
+    font-weight: bold;
+    }
+    
+    form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff; 
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    } 
+    .submit-message { 
+        background-color: rgba(75, 163, 40, 0.774);
+        color: white;
+        margin-top: 20px;
+        font-style: italic;
+    }
+      
+    form button[type="submit"]:hover{
+        background-color: blue; 
+        border: 5px solid green;
+    }
+    
+    .hidden {
+    display: none;
+    }
+    
+     
+  
+    
+     /* Style the footer section */
+  footer {
+    background-color: rgba(16, 112, 16, 0.644); 
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+    /* Media queries */
+    @media screen and (max-width: 768px) {
+    header {
+    padding: 10px;
+    }
+}

@@ -14,12 +14,12 @@
   grid-template-columns: 1fr 1fr; 
   grid-gap: 10px;
 }
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-    background-color: rgba(172, 255, 47, 0.445);
-  }
+body {
+  background-image: url(images/fruit4.jpg);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
   
   a {
     text-decoration: none;
@@ -27,16 +27,23 @@
   }
   
   a:hover {
-     background-color: rgba(214, 230, 191, 0.445);
+     background-color: rgba(214, 230, 191, 0.445); 
+     border: 1px solid; 
+     border-radius: 2px;
   }
   
   /* Style the header section */
   header {
-    background-color: rgb(16, 112, 16); 
+    background-color: rgba(16, 112, 16, 0.5); 
     padding: 20px;
-    text-align: center;
+    text-align: center; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
   }
-  
+  header p{
+    color: orange; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px;
+  }
   nav ul { 
     list-style: none;
     margin: 0;
@@ -67,21 +74,25 @@ header .logo {
   
   nav a {
     font-weight: bold;  
-    background-color: white;
-    color: blue; 
+    color: white; 
     font-size: 20px; 
     font-family:  RocknRoll O, Helvetica, sans-serif;
   }
   
-  h1 {  
-    color: #ff6600;
+  h1 {   
+    background-color:rgba(0, 128, 0, 0.397);
+    width: 40%;
+    color: white;
     margin-top: 20px;
     font-size: 30px; 
     font-family: 'Times New Roman', Times, serif;
+  } 
+  #specialty-drinks{
+    color: white; 
   }
   
   h2 { 
-    color: #ff6600;
+    color: white;
     margin-bottom: 20px;
     font-size: 25px; 
     font-family: 'Times New Roman', Times, serif;
@@ -89,24 +100,24 @@ header .logo {
   h6{ 
     margin-top: 70px; 
     font-size: 40px;
-  color: green; 
+  color: white; 
   font-family:  RocknRoll O, Helvetica, sans-serif;
   } 
 li{
     color: brown;
   } 
   a{ 
-    background-color: white;
-    color: blue;
+    color: white;
   }
-  h4{
-    color: green;  
+  h4{ 
+    background-color: rgba(0, 128, 0, 0.397);
+    color:white;  
     font-size: 20px;
   font-family:  RocknRoll O, Helvetica, sans-serif;
   } 
   h5{
     text-align: center; 
-    color: #ff6600; 
+    color:white; 
     font-size: 20px; 
     font-family:  RocknRoll O, Helvetica, sans-serif;
   } 
@@ -138,7 +149,7 @@ li{
       transform: scale(1.1);
   }
   .cta {
-    display: inline-block;
+    display: inline-block; 
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #ff6600;
@@ -146,16 +157,18 @@ li{
     border-radius: 5px;
   } 
   .cta:hover{
-    background-color: blue;
+    background-color: blue; 
+    width: 50%; 
+    border-radius: 10px;
   }
   
   /* Style the footer section */
   footer {
-    background-color:rgb(16, 112, 16); 
+    background-color:rgba(16, 112, 16, 0.473); 
     padding: 20px;
     color: #fff;
-    text-align: center;
-    padding: 20px;
+    text-align: center; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
   }
   
   footer p {
@@ -179,13 +192,14 @@ li{
   #forecast li {
     display: inline-block;
     margin-right: 10px;
-  } 
+  }  
+  
 
   @media only screen and (max-width: 768px) {
     /* styles for small screens */
     #specialty-drinks{
         display: grid;
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: 1fr; 
         grid-gap: 10px;
     } 
     header ul{
@@ -199,7 +213,7 @@ li{
 
     #coastal-area{
       display: grid;
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: 1fr; 
       grid-gap: 10px;
     }
   }

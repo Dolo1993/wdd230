@@ -4,10 +4,22 @@
 	<meta charset="UTF-8">
 	<title>About Us | Fruit Drinks</title>
 	<!-- CSS and JS files go here -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/aboutus.css"> 
+	<style>
+		body {
+			background-image: url("images/fruit5.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 </head>
 <body>
-	<header>
+	<header> 
+		<div class ="logo"> 
+			<img class="logo-img" src="images/logo.jpg" alt="chamber logo">  
+			<p>ORGANIC FRUIT</p>  
+		</div>
+		<nav>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -15,8 +27,6 @@
 				<li><a href="contactus.html">Contact Us</a></li>
 			</ul>
 		</nav>
-		<h1>About Us</h1>
-		<h2>Our Story</h2>
 	</header>
 	<main>
 		<section id="history">
@@ -48,7 +58,7 @@
 		</section>
 	</main>
 	<footer>
-		<p>&copy; 2023 Fruit Drinks. All rights reserved. Last modified: <span id="last-modified"></span></p>
+		<p>&copy; 2023 Fruit Drinks. All rights reserved.<span id="last-modified"></span></p>
 	</footer>
 	<script src="scripts/aboutus.js"></script>
 </body>

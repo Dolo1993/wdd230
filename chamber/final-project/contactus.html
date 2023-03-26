@@ -3,11 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact Us | Fruit Drinks</title>
-	<!-- CSS files go here -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/contactus.css"> 
+	<style>
+		body {
+			background-image: url("images/fruit1.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 </head>
 <body>
-	<header>
+	<header> 
+		<div class ="logo"> 
+			<img class="logo-img" src="images/logo.jpg" alt="chamber logo">  
+			<p>ORGANIC FRUIT</p>  
+		</div>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -15,19 +25,18 @@
 				<li><a href="aboutus.html">About Us</a></li>
 			</ul>
 		</nav>
-		<h1>Contact Us</h1>
-		<h2>We'd love to hear from you!</h2>
 	</header>
 	<main>
-		<section id="contact-info">
+		<section id="contact-info">  
+			<h2>We'd love to hear from you!</h2>
 			<h3>Contact Information</h3>
-			<ul>
+			<ol>
 				<li><strong>Address:</strong> 123 Main Street, Carlsbad, CA 92008</li>
 				<li><strong>Phone:</strong> (555) 555-5555</li>
 				<li><strong>Email:</strong> info@fruitdrinks.com</li>
-			</ul>
+			</ol>
 		</section>
-		<section  >
+		<section>
 			<h3>Contact Form</h3>
 			<form method="get" action="freshthank.html">
                 <label for="name">Name:</label>
@@ -38,11 +47,11 @@
                 <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
                 <input type="submit" value="Proceed">
             </form>
-			</form>
 		</section>
 	</main>
 	<footer>
-		<p>&copy; 2023 Fruit Drinks. All rights reserved.</p>
+		<p>&copy; 2023 Fruit Drinks. All rights reserved.<span id="last-modified"></span></p>
 	</footer>
+	<script src="scripts/aboutus.js"></script>
 </body>
 </html>
