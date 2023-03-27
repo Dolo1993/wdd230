@@ -195,4 +195,67 @@ li{
   }  
   
 
-   
+  @media only screen and (max-width: 768px) {
+    /* CSS styles for screens smaller than 768px */
+    body {
+      background-size: contain;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .logo-img {
+      height: 100px;
+      width: 100px;
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    nav li {
+      margin-bottom: 10px;
+    }
+    #specialty-drinks h1 {
+      font-size: 32px;
+    }
+    #specialty-drinks h2 {
+      font-size: 24px;
+    }
+    #specialty-drinks h3 {
+      font-size: 20px;
+    }
+    #specialty-drinks h4 {
+      font-size: 16px;
+    }
+    #specialty-drinks img {
+      width: 100%;
+    }
+    #coastal-area h4 {
+      font-size: 16px;
+    }
+    #coastal-area img {
+      width: 100%;
+    }
+    #social-media h1 {
+      font-size: 32px;
+    }
+    #social-media ul {
+      display: flex;
+      justify-content: center;
+    }
+    #social-media li {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #weather-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
