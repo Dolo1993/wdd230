@@ -1,133 +1,220 @@
  /* Set some general styles */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* Style the header section */
-header {
-  background-color: rgba(16, 112, 16, 0.5);
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
-}
-header p {
-  color: orange;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 10px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-/* logo element */
-header .logo {
-  display: flex;
-  align-items: center;
-}
-
-/* logo */
-.logo-img {
-  width: 70px;
-  height: 70px;
-  margin-top: -10;
-  margin-left: 4px;
-  margin-bottom: -30px;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
-}
-
-nav a {
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
-  font-family: RocknRoll O, Helvetica, sans-serif;
-}
-
-/* Style the main section */
-main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 #specialty-drinks{
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-gap: 10px
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
 } 
 #coastal-area{
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  grid-gap: 10px
+  grid-gap: 10px;
 }
-section img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid green;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+body {
+  background-image: url(images/fruit4.jpg);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
 }
-
-section img:hover {
-  opacity: 0.9;
-  transform: scale(1.1);
-}
-
-.cta {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #ff6600;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.cta:hover {
-  background-color: blue;
-  width: 50%;
-  border-radius: 10px;
-}
-
-/* Style the footer section */
-footer {
-  background-color: rgba(16, 112, 16, 0.473);
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
-}
-
-footer p {
-  margin-bottom: 0;
-}
-
-/* Style the weather section */
-#weather-card {
-  background-color: #f5f5f5;
-  padding: 20px;
-  margin-top: 40px;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
-}
-
-/* Media queries for small screens */
-@media (max-width: 600px) {
-  #specialty-drinks,
-  #coastal-area {
-    display: block;
+  
+  a {
+    text-decoration: none;
+    color: #333;
   }
+  
+  a:hover {
+     background-color: rgba(214, 230, 191, 0.445); 
+     border: 1px solid; 
+     border-radius: 2px;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: rgba(16, 112, 16, 0.5); 
+    padding: 20px;
+    text-align: center; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+  }
+  header p{
+    color: orange; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px;
+  }
+  nav ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  } 
+/* logo element */
+header .logo {
+    display: flex;
+    align-items: center;
+  } 
+  
+  /* logo */
+  .logo-img{ 
+    width: 70px; 
+    height: 70px;
+    margin-top: -10;  
+    margin-left: 4px; 
+    margin-bottom: -30px; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+  } 
+
+  
+  nav a {
+    font-weight: bold;  
+    color: white; 
+    font-size: 20px; 
+    font-family:  RocknRoll O, Helvetica, sans-serif;
+  }
+  
+  h1 {   
+    background-color:rgba(0, 128, 0, 0.397);
+    width: 40%;
+    color: white;
+    margin-top: 20px;
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+  } 
+  #specialty-drinks{
+    color: white; 
+  }
+  
+  h2 { 
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px; 
+    font-family: 'Times New Roman', Times, serif;
+  } 
+  h6{ 
+    margin-top: 70px; 
+    font-size: 40px;
+  color: white; 
+  font-family:  RocknRoll O, Helvetica, sans-serif;
+  } 
+li{
+    color: brown;
+  } 
+  a{ 
+    color: white;
+  }
+  h4{ 
+    background-color: rgba(0, 128, 0, 0.397);
+    color:white;  
+    font-size: 20px;
+  font-family:  RocknRoll O, Helvetica, sans-serif;
+  } 
+  h5{
+    text-align: center; 
+    color:white; 
+    font-size: 20px; 
+    font-family:  RocknRoll O, Helvetica, sans-serif;
+  } 
+  p{  
+    margin-bottom: 10px ;
+    font-family:  RocknRoll O, Helvetica, sans-serif;;
+    font-size: 18px 
+    
+  }
+  /* Style the main section */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
   section img {
-    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;  
+    border: 1px solid green;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+  } 
+  section img:hover{
+    opacity: .9;
+      transform: scale(1.1);
   }
-}
+  .cta {
+    display: inline-block; 
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+  } 
+  .cta:hover{
+    background-color: blue; 
+    width: 50%; 
+    border-radius: 10px;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color:rgba(16, 112, 16, 0.473); 
+    padding: 20px;
+    color: #fff;
+    text-align: center; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9);
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  /* Style the weather section */
+  #weather-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+  
+  #weather-card img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #forecast li {
+    display: inline-block;
+    margin-right: 10px;
+  }  
+  
+
+  @media only screen and (max-width: 768px) {
+    /* styles for small screens */
+    #specialty-drinks{
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 10px;
+    } 
+    header ul{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+    section {
+      margin-bottom: 20px;
+    } 
+
+    #coastal-area{
+      display: grid;
+      grid-template-columns: 1fr; 
+      grid-gap: 10px;
+    }
+  }
+  
