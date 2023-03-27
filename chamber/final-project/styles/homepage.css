@@ -195,67 +195,71 @@ li{
   }  
   
 
-  @media only screen and (max-width: 768px) {
-    /* CSS styles for screens smaller than 768px */
+  @media (max-width: 600px) {
+    /* Styles for small screens */
     body {
-      background-size: contain;
-    }
-    header {
       display: flex;
       flex-direction: column;
-      align-items: center;
     }
     .logo {
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin: 0 auto;
+      text-align: center;
     }
     .logo-img {
-      height: 100px;
       width: 100px;
+      height: 100px;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
     }
     nav ul {
+      margin: 0;
+      padding: 0;
       display: flex;
       flex-direction: column;
-      margin-top: 10px;
     }
     nav li {
-      margin-bottom: 10px;
+      margin: 10px 0;
     }
-    #specialty-drinks h1 {
-      font-size: 32px;
+    .cta {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
     }
-    #specialty-drinks h2 {
-      font-size: 24px;
-    }
-    #specialty-drinks h3 {
-      font-size: 20px;
-    }
-    #specialty-drinks h4 {
-      font-size: 16px;
+    #specialty-drinks {
+      text-align: center;
     }
     #specialty-drinks img {
-      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
     }
-    #coastal-area h4 {
-      font-size: 16px;
+    #coastal-area {
+      text-align: center;
     }
     #coastal-area img {
-      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
     }
-    #social-media h1 {
-      font-size: 32px;
+    #social-media {
+      text-align: center;
     }
     #social-media ul {
+      margin: 0;
+      padding: 0;
       display: flex;
+      flex-direction: row;
       justify-content: center;
     }
     #social-media li {
-      margin-left: 10px;
-      margin-right: 10px;
+      margin: 0 10px;
+    }
+    #weather {
+      text-align: center;
     }
     #weather-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      max-width: 100%;
     }
   }
