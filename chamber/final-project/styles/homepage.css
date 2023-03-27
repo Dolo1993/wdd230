@@ -194,27 +194,3 @@ li{
     margin-right: 10px;
   }  
   
-
-  @media only screen and (max-width: 768px) {
-    /* styles for small screens */
-    #specialty-drinks{
-        display: grid;
-        grid-template-columns: 1fr; 
-        grid-gap: 10px;
-    } 
-    header ul{
-      display: flex;
-      flex-direction: column; 
-      align-items: center;
-    }
-    section {
-      margin-bottom: 20px;
-    } 
-
-    #coastal-area{
-      display: grid;
-      grid-template-columns: 1fr; 
-      grid-gap: 10px;
-    }
-  }
-  
