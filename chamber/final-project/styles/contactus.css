@@ -137,4 +137,42 @@ h3{
     
     footer p {
       margin-bottom: 0;
-    }
+    } 
+    /* Adjust the layout for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: auto; /* Set background size to auto so it scales with the screen */
+  }
+
+  header {
+    flex-direction: column; /* Stack the logo and nav vertically */
+    align-items: center; /* Center the logo and nav */
+  }
+
+  .logo-img {
+    width: 80%; /* Reduce the logo image size to fit the screen */
+  }
+
+  nav {
+    margin-top: 20px; /* Add some margin between the logo and nav */
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column; /* Stack the nav items vertically */
+    align-items: center; /* Center the nav items */
+  }
+
+  li {
+    margin: 10px 0; /* Add some margin between the nav items */
+  }
+
+  section {
+    margin: 20px 0; /* Add some margin between the sections */
+  }
+
+  form {
+    max-width: 400px; /* Limit the form width to fit the screen */
+    margin: 0 auto; /* Center the form */
+  }
+}
